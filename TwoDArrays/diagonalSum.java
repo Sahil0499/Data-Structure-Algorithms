@@ -1,6 +1,8 @@
 // Find the diagonal sum of the matrix
-//  NOTE: for Primary diagonal(PD) -> i==j
+
+//  Approach: for Primary diagonal(PD) -> i==j
 //        for Secondary diagnoal(SD) -> i+j = n-1 => j=n-1-i ;
+
 package TwoDArrays;
 
 public class diagonalSum {
