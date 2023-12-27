@@ -7,10 +7,10 @@
   <pre> Ex: 7789 / 10 = 778.9 = 778 Ans.  
        7 / 10 = 0 </pre>
 
-> Extraction of Digit (Psuedo Code)
-<pre>  N = 7789;
-While (N > 0)
-{
-    lastDigit = W % 10;
-    W = N/10;
-}
+  > Extraction of Digit (Psuedo Code)
+    <pre>  N = 7789;
+      While (N > 0)
+      {
+          lastDigit = W % 10;
+          W = N/10;
+      } </pre>
