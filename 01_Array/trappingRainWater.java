@@ -6,7 +6,6 @@
 // maxleftboundary = [4, 4, 4, 6, 6, 6, 6]
 // maxrightboundary = [6, 6, 6, 6, 5, 5, 5]
 
-package Array;
 
 public class trappingRainWater {
     public static void main(String args[]){

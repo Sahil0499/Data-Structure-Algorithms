@@ -1,4 +1,4 @@
-package Array;
+// going to every element one by one.
 
 public class linearSearch {// o(n)
 

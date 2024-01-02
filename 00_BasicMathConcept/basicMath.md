@@ -16,5 +16,19 @@
           count++;
           W = N/10;
       } Print(count); </pre>
+  > NOTE: If no. of Iterations is based on division, Time Complexity will always be Logarithmic.
 
-> NOTE: If no. of Iterations is based on division, Time Complexity will always be Logarithmic.
+### Palindrome 
+  Palindrome are the numbers for which REVERSE IS EXACTLY SAME.  
+  Ex: 121, 1331.
+
+### Armstrong Number 
+  An integer such that the sum of the cubes of its digits is equal to the number itself.  
+  Ex: 371 = 3^3 + 7^3 + 1^3 = 371.  
+  &nbsp;  1634 = 1^3 + 6^3 + 3^3 + 4^3 = 1634.
+
+### Prime Number  
+   A prime number is a number that can only be divisible by 1 and the number itself.  
+   Ex: 2, 3, 5, 7, 11, etc.
+
+### GCD / HCF

@@ -1,7 +1,6 @@
 // main thing is adding +ve number with big -ve number will always give result of negative number,
 // Kadane's take this number as 0.
 
-package Array;
 
 public class kadanealgo { // O(N)
     public static void Kadanes(int numbers[]) {

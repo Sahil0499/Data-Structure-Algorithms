@@ -1,0 +1,3 @@
+- 0 based indexing follow by Java/C++
+- to compile - javac filename.java
+- to run     - java filename.java

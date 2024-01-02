@@ -1,4 +1,3 @@
-package Array;
 
 public class max_Subarray_Sum {
     // Brute force O(N^3)
@@ -27,6 +26,7 @@ public class max_Subarray_Sum {
         System.out.println("number of time loop run is = " + count);
     }
 
+    //prefix array - jaha par hai vaha se piche tak ka sum.
     //Prefix sum =  means the sum from stating element till the position of the respective element
     // O(N^2)
     public static void maxSubarraySum_usingPrefixArray(int numbers[]) {

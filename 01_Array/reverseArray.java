@@ -1,4 +1,4 @@
-package Array;
+
 
 public class reverseArray {
 // using extra space

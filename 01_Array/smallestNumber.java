@@ -1,4 +1,4 @@
-package Array;
+// creating a variable name "smallest" with a value "+inifnity(∞)", and compare it with all numbers in array.
 
 public class smallestNumber {
 
