@@ -31,4 +31,8 @@
    A prime number is a number that can only be divisible by 1 and the number itself.  
    Ex: 2, 3, 5, 7, 11, etc.
 
-### GCD / HCF
+### GCD / HCF ?
+
+> Fibonacci numbers are a sequence of numbers in mathematics where each number is the sum of the two previous numbers
+
+> Palindrome = a string on reversal reads the same

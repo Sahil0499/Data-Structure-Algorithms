@@ -7,19 +7,6 @@
 // Return k.
 
 
-class Solution1 {
-    public int removeDuplicates(int[] nums) {
-        int j = 1;
-        for (int i = 1; i < nums.length; i++) {
-            if (nums[i] != nums[i - 1]) {
-                nums[j] = nums[i];
-                j++;
-            }
-        }
-        return j;
-    }
-}
-
 class Solution2 {
     public int removeDuplicates(int[] nums) {
         int i = 0;
@@ -32,14 +19,5 @@ class Solution2 {
             }
         }
         return i+1;
-    }
-}
-
-//  OPTIMAL SOLN.
-class Solution3 {
-    public int removeDuplicates(int[] nums) {
-        for(int tail = 1, head = 0; ; tail++)
-            if(tail >= nums.length) return ++head;
-            else if(nums[head] != nums[tail]) nums[++head] = nums[tail];
     }
 }

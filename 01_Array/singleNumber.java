@@ -15,3 +15,6 @@ class Solution {
         return XOR;
     }
 }
+
+// initialize XOR with 0; XOR with every element present in the array, XOR ^= nums[i];  
+// you will get the number that doesn't appear twice. ( 2^2=0 ; 0^2=2; )  
