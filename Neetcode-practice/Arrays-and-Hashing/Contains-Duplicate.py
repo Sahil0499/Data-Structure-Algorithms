@@ -1,7 +1,7 @@
-from typing import List
-
 # 217. Contains Duplicate
 # Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
+
+from typing import List
 
 #Brute Force
 def hasDuplicate(self, nums: List[int]) -> bool:
@@ -26,13 +26,13 @@ def hasDuplicate(self, nums: List[int]) -> bool:
 # Space complexity: O(1)
 
 # Hash Set (optimise one but have to compromise with space complex.)
-def hasDuplicate(self, nums: List[int]) -> bool:
-       seen = set()
-       for num in nums:
-           if num in seen:
+def containsDuplicate(self, nums: List[int]) -> bool:
+     hashset = set()
+     for n in nums:
+          if n in hashset:
                return True
-           seen.add(num)
-       return False
-
-# Time complexity : O(n)
+          hashset.add(n)
+     return False
+    
+# Time complexity : O(n)f
 # Space complexity: O(n)

@@ -1,7 +1,4 @@
-# practice
-# https://github.com/Sahil0499/Data-Structure-Algorithms/tree/main
 from typing import List
-
 
 nums = [1,2,3,1]
 
